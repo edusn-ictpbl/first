@@ -1,0 +1,57 @@
+/*h1{
+	color: skyblue;
+}*/
+#p1{
+	color: orange;
+	background-color: green;
+}
+#p2{
+	color: lightsalmon;
+	background-color: brown;
+}
+h1{
+	color: lightsalmon;
+	text-align: center;
+}
+#login,#cancle{
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+			border: 1px solid lightpink;
+			background: linear-gradient(20deg,lightpink,skyblue);
+			color: black;
+		}
+#login:hover{
+			box-shadow: 2px 3px 5px grey;
+			background: linear-gradient(20deg,skyblue,lightpink);
+		}
+div.form-container{
+	border: 1px solid white;
+	width: 50vw;
+	/*to place center for of form*/
+	display: flex;
+	justify-content: center;
+	/*to place center for div*/
+	margin-left: 30%;
+}
+.form-container label{
+	width: 22%;
+	display: block;
+	float: left;
+}
+.form-container form{
+	width: 50%;
+}
+input[type='text']{
+	border: 1px solid deeppink;
+
+}
+input[type='password'],input[type='email']{
+	border: 1px solid deeppink;
+}
+input[type='checkbox'],input[type='radio']{
+	accent-color: orange;
+}
+input:hover{
+	box-shadow: 2px 2px 2px grey;
+}

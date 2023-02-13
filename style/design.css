@@ -1,0 +1,110 @@
+     	.one,.four{
+     		background-color: lightskyblue;
+     		height: 10vh;
+     	}
+     	.two,.three{
+     		background-color: lightyellow;
+     		height: 60vh;
+     	}
+     .three,.ytchild{
+     		background-color: lightsalmon;
+     		display: flex;
+     		justify-content: space-around;
+     		align-items: center;
+     	}
+     	.child{
+     		width: 30%;
+     		height: 40vh;
+     		border: 2px solid black;
+     	}
+     	.channel{
+     		height:100vh ;
+     		background-color: lightpink;
+     		display: flex;
+     	}
+     .btngp{
+     		width:20%;
+     		border: 2px solid black;
+     	}
+     	.viewsection{
+     		width: 80%;
+     		border: 2px solid black;
+     	}
+     	.btn{
+     		width: 100%;
+     		height: 5vh;
+     		border-radius: 10%;
+     	}
+     	.child1{
+     		width: 100%%;
+     		display: flex;
+     		justify-content: space-around;
+     		border: 2px solid black;
+     	}
+     	.img{
+     		width: 99%;
+     		height: 20vh;
+     		display: flex;
+     		justify-content: center;
+     		border: 3px solid black;
+     	}
+     	.footer{
+     		background-color: grey;
+     		height: 40vh;
+     		width: 100%;
+     		display: flex;
+     	}
+     	.socialmadia,.contact,.map{
+     		width: 30%;
+     	}
+     	.ytrecommed,.text,.ytrecent{
+     		display: flex;
+     		justify-content: space-around;
+     	}
+        .a,.b,.c,.d{
+        	background-color: lightyellow;
+        	border: 2px solid black;
+        	width: 20%;
+        	height: 15vh;
+        }
+        .t,.e,.x,.t{
+        	background-color: lightyellow;
+        	width: 20%;
+            height: 5vh;
+            border: 2px solid black;
+
+        }
+           #nav ul li{
+                 float: left;
+                 list-style: none;/* to remove bullet points*/
+                 margin: 0 5px;/*0=top and botton , 5px=left and right*/
+                 color: deeppink;
+                 opacity: 0.3;
+                /* text-shadow: 2px 2px 3px lightyellow;*/
+                
+           }
+           #nav ul li a{
+             color: deeppink;
+                /* lowest=0,heighest=1*/
+                 opacity: 0.3;
+                 text-decoration: none;
+           }
+           /*pusedo element(element:hover)*/
+           #nav ul li a:hover{
+            opacity: 1;
+            cursor: pointer;
+            /*text-shadow: x y blur colour;*/
+            font-weight: bold;
+            font-size: 20px;
+            text-shadow: 2px 2px 3px lightyellow;
+           }
+    body{
+        margin: 0;
+    }
+    #nav{
+        overflow: hidden;
+    }
+    div.two{
+        background-image:url('rose.jpg');
+        background-size: 100% 100%;/* x,y*/
+    }
